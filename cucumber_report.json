@@ -1,0 +1,90 @@
+[
+  {
+    "description": "    Feature Description:user can login to banking application and navigating to different pages",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-banking;in-order-to-verify-login-to-banking",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "In order to verify login to banking",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user navigate to \"https://www.way2automation.com/angularjs-protractor/banking/#/login\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user found the title as",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on CustomerLogin button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user select the value from the list",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user click on Login",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-banking",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login banking",
+    "tags": [],
+    "uri": "features\\pages\\features\\login.feature"
+  }
+]
